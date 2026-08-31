@@ -1,7 +1,15 @@
-const cards = document.querySelectorAll('.region-card');
+document.addEventListener('DOMContentLoaded', () => {
 
-cards.forEach(card => {
-    card.addEventListener('click', () => {
-        card.classList.toggle('scaled');
+    const cards = document.querySelectorAll('.card');
+
+    cards.forEach(card => {
+
+        card.addEventListener('click', () => {
+
+            card.classList.toggle('scaled');
+
+        });
+
     });
+
 });

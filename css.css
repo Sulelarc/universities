@@ -1,0 +1,122 @@
+html {
+    width: 430px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+
+body {
+    background-color: #12122A;
+    max-width: 430px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+main {
+    
+    max-width: 100%;
+    background-color: #efe7db;
+
+}
+
+.description {
+   font-family: "EB Garamond", serif;
+   font-optical-sizing: auto;
+   font-weight: <weight>;
+   font-style: normal;
+   color: oklab(95.9579% .00184342 .00888658 / .6);
+   background-color: #12122A;
+   font-size: 65%;
+   max-width: 430px;
+   padding-left: 10px; 
+}
+
+.title09 {
+   font-family: "EB Garamond", serif;
+   font-optical-sizing: auto;
+   font-weight: <weight>;
+   font-style: normal;
+   color: oklab(95.9579% .00184342 .00888658 / .6);
+   background-color: #12122A; 
+   font-size: 275%;
+
+}
+
+.difference {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    color: oklab(95.9579% .00184342 .00888658 / .6);
+    background-color: #12122A;
+    font-size: 180%;
+    max-width: 430px;
+    padding-left: 10px; 
+}
+
+.textStyle01 {
+   font-family: "EB Garamond", serif;
+   font-optical-sizing: auto;
+   font-weight: <weight>;
+   font-style: normal;
+   color: black;
+   font-size: 130%;
+   max-width: 430px;
+   padding-left: 10px; 
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-content {
+    border: 2px solid black;
+    border-radius: 15px;
+    max-width: 430px;
+    background-color: #c4b29d;
+
+}
+
+.card-container {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px; 
+}
+
+.card {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.card-state, .state-descriprion {
+    padding-left: 10px;
+}
+
+.card-state {
+    font-size: 200%;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    color: black;
+    
+    
+     
+}
+
+.state-descriprion {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    color: black;
+    font-size: 150%;
+    text-align: center;
+    padding-right: 10px;
+}

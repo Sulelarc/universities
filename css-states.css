@@ -1,0 +1,28 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
+header {
+    width: 100%;              
+    margin: 0;                
+    padding: 20px 16px;       
+    background: #12122A;
+    color: white;
+    text-align: center;
+    border: none;             
+    outline: none;            
+    box-sizing: border-box;   
+}
+
+.name {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    color: white;
+    text-align: left;
+}

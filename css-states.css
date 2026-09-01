@@ -15,7 +15,8 @@ header {
     text-align: center;
     border: none;             
     outline: none;            
-    box-sizing: border-box;   
+    box-sizing: border-box;  
+    margin-bottom: 20px; 
 }
 
 .name {
@@ -25,4 +26,72 @@ header {
     font-style: normal;
     color: white;
     text-align: left;
+}
+
+
+.image {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-content {
+    border: 2px solid black;
+    border-radius: 15px;
+    max-width: 430px;
+    background-color: #c4b29d;
+
+}
+
+.card-container {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px; 
+}
+
+.card {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.card-state, .state-descriprion {
+    padding-left: 10px;
+}
+
+.card-university {
+    font-size: 200%;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    color: black;
+    
+    
+     
+}
+
+.university-descriprion {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    color: black;
+    font-size: 150%;
+    text-align: center;
+    padding-right: 10px;
+}
+.card {
+    display: block;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.card.scaled {
+    transform: scale(1.05);
 }

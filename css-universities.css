@@ -1,0 +1,40 @@
+header {
+    width: 100%;              
+    margin: 0;                
+    padding: 20px 16px;       
+    background: #12122A;
+    color: white;
+    text-align: center;
+    border: none;             
+    outline: none;            
+    box-sizing: border-box;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;  
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+main {
+    width: 100%;
+    background-color: beige;
+    padding-top: 20px;
+    max-width: 100%;
+    padding-bottom: 15px;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.image-container {
+    display: flex;
+    justify-content: flex-start;
+    
+    flex-direction: column;
+}

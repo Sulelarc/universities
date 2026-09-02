@@ -38,3 +38,21 @@ main {
     
     flex-direction: column;
 }
+
+.programms, .requirements, .pgwp, .tuition, .work, .grants, .application {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.video-wrapper {
+    aspect-ratio: 16 / 9; /* держит пропорции видео на любой ширине */
+    width: 100%;
+}
+ 
+.video-wrapper iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}

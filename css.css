@@ -134,3 +134,14 @@ main {
 .card.scaled {
     transform: scale(1.05);
 }
+
+
+.extra-info-link {
+    text-decoration: none;
+    text-align: center;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 150%;
+}
